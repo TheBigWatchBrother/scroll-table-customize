@@ -1,0 +1,25 @@
+.semi-tag {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.width-full {
+  width: 100%;
+  .inline-block {
+    display: inline-block;
+  }
+  .inline-flex {
+    display: inline-flex;
+    column-gap: 4px!important;
+    height: auto;
+  }
+  .pl-10 {
+    padding-left: 10px;
+  }
+}
+
+.fit-content {
+  width: fit-content;
+}
